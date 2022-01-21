@@ -47,7 +47,7 @@ coffee()
 
 def kilometers_to_miles():
     kilometers = eval(input("Enter distance in kilometers"))
-    miles = kilometers * 0.62
+    miles = kilometers / 1.61
     print("That is ", miles)
 
 kilometers_to_miles()
