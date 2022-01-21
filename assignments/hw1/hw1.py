@@ -1,34 +1,56 @@
 """
-Name: <your name goes here – first and last>
-<ProgramName>.py
+Name: Joseph Fariello
+hw1.py
 
-Problem: <Brief, one or two sentence description of the problem that this program solves, in your own words.>
+Problem: This program completes hw1
 
 Certification of Authenticity:
-<include one of the following>
 I certify that this assignment is entirely my own work.
-I certify that this assignment is my own work, but I discussed it with: <Name(s)>
 """
 
 
 def calc_rec_area():
-    pass
+    length = eval(input("Enter the length"))
+    width = eval(input("Enter the width"))
+    area = length * width
+    print("Area =", area)
+
+calc_rec_area()
 
 
 def calc_volume():
-    pass
+    length = eval(input("Enter the length"))
+    width = eval(input("Enter the width"))
+    height = eval(input("Enter the height"))
+    volume = length * width * height
+    print("Volume =", volume)
+
+calc_volume()
 
 
 def shooting_percentage():
-    pass
+    TS = eval(input("Enter the player's total shots"))
+    SM = eval(input("Enter how many shots the player made"))
+    percentage = (SM / TS) * 100
+    print("Shooting percentage:", percentage)
+
+shooting_percentage()
 
 
 def coffee():
-    pass
+    pounds = eval(input("How many pounds of coffee would you like?"))
+    cost = ((10.50 + 0.86) * pounds) + 1.50
+    print("Your total is $", cost)
+
+coffee()
 
 
 def kilometers_to_miles():
-    pass
+    kilometers = eval(input("Enter distance in kilometers"))
+    miles = kilometers * 0.62
+    print("That is ", miles)
+
+kilometers_to_miles()
 
 
 if __name__ == '__main__':
